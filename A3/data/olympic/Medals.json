@@ -1,0 +1,847 @@
+[
+{
+	"col1": "Rank",
+	"col2": "Team/NOC",
+	"col3": "Gold",
+	"col4": "Silver",
+	"col5": "Bronze",
+	"col6": "Total",
+	"col7": "Rank by Total"
+},
+{
+	"col1": "1",
+	"col2": "United States of America",
+	"col3": "39",
+	"col4": "41",
+	"col5": "33",
+	"col6": "113",
+	"col7": "1"
+},
+{
+	"col1": "2",
+	"col2": "People's Republic of China",
+	"col3": "38",
+	"col4": "32",
+	"col5": "18",
+	"col6": "88",
+	"col7": "2"
+},
+{
+	"col1": "3",
+	"col2": "Japan",
+	"col3": "27",
+	"col4": "14",
+	"col5": "17",
+	"col6": "58",
+	"col7": "5"
+},
+{
+	"col1": "4",
+	"col2": "Great Britain",
+	"col3": "22",
+	"col4": "21",
+	"col5": "22",
+	"col6": "65",
+	"col7": "4"
+},
+{
+	"col1": "5",
+	"col2": "ROC",
+	"col3": "20",
+	"col4": "28",
+	"col5": "23",
+	"col6": "71",
+	"col7": "3"
+},
+{
+	"col1": "6",
+	"col2": "Australia",
+	"col3": "17",
+	"col4": "7",
+	"col5": "22",
+	"col6": "46",
+	"col7": "6"
+},
+{
+	"col1": "7",
+	"col2": "Netherlands",
+	"col3": "10",
+	"col4": "12",
+	"col5": "14",
+	"col6": "36",
+	"col7": "9"
+},
+{
+	"col1": "8",
+	"col2": "France",
+	"col3": "10",
+	"col4": "12",
+	"col5": "11",
+	"col6": "33",
+	"col7": "10"
+},
+{
+	"col1": "9",
+	"col2": "Germany",
+	"col3": "10",
+	"col4": "11",
+	"col5": "16",
+	"col6": "37",
+	"col7": "8"
+},
+{
+	"col1": "10",
+	"col2": "Italy",
+	"col3": "10",
+	"col4": "10",
+	"col5": "20",
+	"col6": "40",
+	"col7": "7"
+},
+{
+	"col1": "11",
+	"col2": "Canada",
+	"col3": "7",
+	"col4": "6",
+	"col5": "11",
+	"col6": "24",
+	"col7": "11"
+},
+{
+	"col1": "12",
+	"col2": "Brazil",
+	"col3": "7",
+	"col4": "6",
+	"col5": "8",
+	"col6": "21",
+	"col7": "12"
+},
+{
+	"col1": "13",
+	"col2": "New Zealand",
+	"col3": "7",
+	"col4": "6",
+	"col5": "7",
+	"col6": "20",
+	"col7": "13"
+},
+{
+	"col1": "14",
+	"col2": "Cuba",
+	"col3": "7",
+	"col4": "3",
+	"col5": "5",
+	"col6": "15",
+	"col7": "18"
+},
+{
+	"col1": "15",
+	"col2": "Hungary",
+	"col3": "6",
+	"col4": "7",
+	"col5": "7",
+	"col6": "20",
+	"col7": "13"
+},
+{
+	"col1": "16",
+	"col2": "Republic of Korea",
+	"col3": "6",
+	"col4": "4",
+	"col5": "10",
+	"col6": "20",
+	"col7": "13"
+},
+{
+	"col1": "17",
+	"col2": "Poland",
+	"col3": "4",
+	"col4": "5",
+	"col5": "5",
+	"col6": "14",
+	"col7": "19"
+},
+{
+	"col1": "18",
+	"col2": "Czech Republic",
+	"col3": "4",
+	"col4": "4",
+	"col5": "3",
+	"col6": "11",
+	"col7": "23"
+},
+{
+	"col1": "19",
+	"col2": "Kenya",
+	"col3": "4",
+	"col4": "4",
+	"col5": "2",
+	"col6": "10",
+	"col7": "25"
+},
+{
+	"col1": "20",
+	"col2": "Norway",
+	"col3": "4",
+	"col4": "2",
+	"col5": "2",
+	"col6": "8",
+	"col7": "29"
+},
+{
+	"col1": "21",
+	"col2": "Jamaica",
+	"col3": "4",
+	"col4": "1",
+	"col5": "4",
+	"col6": "9",
+	"col7": "26"
+},
+{
+	"col1": "22",
+	"col2": "Spain",
+	"col3": "3",
+	"col4": "8",
+	"col5": "6",
+	"col6": "17",
+	"col7": "17"
+},
+{
+	"col1": "23",
+	"col2": "Sweden",
+	"col3": "3",
+	"col4": "6",
+	"col5": "0",
+	"col6": "9",
+	"col7": "26"
+},
+{
+	"col1": "24",
+	"col2": "Switzerland",
+	"col3": "3",
+	"col4": "4",
+	"col5": "6",
+	"col6": "13",
+	"col7": "20"
+},
+{
+	"col1": "25",
+	"col2": "Denmark",
+	"col3": "3",
+	"col4": "4",
+	"col5": "4",
+	"col6": "11",
+	"col7": "23"
+},
+{
+	"col1": "26",
+	"col2": "Croatia",
+	"col3": "3",
+	"col4": "3",
+	"col5": "2",
+	"col6": "8",
+	"col7": "29"
+},
+{
+	"col1": "27",
+	"col2": "Islamic Republic of Iran",
+	"col3": "3",
+	"col4": "2",
+	"col5": "2",
+	"col6": "7",
+	"col7": "33"
+},
+{
+	"col1": "28",
+	"col2": "Serbia",
+	"col3": "3",
+	"col4": "1",
+	"col5": "5",
+	"col6": "9",
+	"col7": "26"
+},
+{
+	"col1": "29",
+	"col2": "Belgium",
+	"col3": "3",
+	"col4": "1",
+	"col5": "3",
+	"col6": "7",
+	"col7": "33"
+},
+{
+	"col1": "30",
+	"col2": "Bulgaria",
+	"col3": "3",
+	"col4": "1",
+	"col5": "2",
+	"col6": "6",
+	"col7": "39"
+},
+{
+	"col1": "31",
+	"col2": "Slovenia",
+	"col3": "3",
+	"col4": "1",
+	"col5": "1",
+	"col6": "5",
+	"col7": "42"
+},
+{
+	"col1": "32",
+	"col2": "Uzbekistan",
+	"col3": "3",
+	"col4": "0",
+	"col5": "2",
+	"col6": "5",
+	"col7": "42"
+},
+{
+	"col1": "33",
+	"col2": "Georgia",
+	"col3": "2",
+	"col4": "5",
+	"col5": "1",
+	"col6": "8",
+	"col7": "29"
+},
+{
+	"col1": "34",
+	"col2": "Chinese Taipei",
+	"col3": "2",
+	"col4": "4",
+	"col5": "6",
+	"col6": "12",
+	"col7": "22"
+},
+{
+	"col1": "35",
+	"col2": "Turkey",
+	"col3": "2",
+	"col4": "2",
+	"col5": "9",
+	"col6": "13",
+	"col7": "20"
+},
+{
+	"col1": "36",
+	"col2": "Greece",
+	"col3": "2",
+	"col4": "1",
+	"col5": "1",
+	"col6": "4",
+	"col7": "47"
+},
+{
+	"col1": "36",
+	"col2": "Uganda",
+	"col3": "2",
+	"col4": "1",
+	"col5": "1",
+	"col6": "4",
+	"col7": "47"
+},
+{
+	"col1": "38",
+	"col2": "Ecuador",
+	"col3": "2",
+	"col4": "1",
+	"col5": "0",
+	"col6": "3",
+	"col7": "60"
+},
+{
+	"col1": "39",
+	"col2": "Ireland",
+	"col3": "2",
+	"col4": "0",
+	"col5": "2",
+	"col6": "4",
+	"col7": "47"
+},
+{
+	"col1": "39",
+	"col2": "Israel",
+	"col3": "2",
+	"col4": "0",
+	"col5": "2",
+	"col6": "4",
+	"col7": "47"
+},
+{
+	"col1": "41",
+	"col2": "Qatar",
+	"col3": "2",
+	"col4": "0",
+	"col5": "1",
+	"col6": "3",
+	"col7": "60"
+},
+{
+	"col1": "42",
+	"col2": "Bahamas",
+	"col3": "2",
+	"col4": "0",
+	"col5": "0",
+	"col6": "2",
+	"col7": "66"
+},
+{
+	"col1": "42",
+	"col2": "Kosovo",
+	"col3": "2",
+	"col4": "0",
+	"col5": "0",
+	"col6": "2",
+	"col7": "66"
+},
+{
+	"col1": "44",
+	"col2": "Ukraine",
+	"col3": "1",
+	"col4": "6",
+	"col5": "12",
+	"col6": "19",
+	"col7": "16"
+},
+{
+	"col1": "45",
+	"col2": "Belarus",
+	"col3": "1",
+	"col4": "3",
+	"col5": "3",
+	"col6": "7",
+	"col7": "33"
+},
+{
+	"col1": "46",
+	"col2": "Romania",
+	"col3": "1",
+	"col4": "3",
+	"col5": "0",
+	"col6": "4",
+	"col7": "47"
+},
+{
+	"col1": "46",
+	"col2": "Venezuela",
+	"col3": "1",
+	"col4": "3",
+	"col5": "0",
+	"col6": "4",
+	"col7": "47"
+},
+{
+	"col1": "48",
+	"col2": "India",
+	"col3": "1",
+	"col4": "2",
+	"col5": "4",
+	"col6": "7",
+	"col7": "33"
+},
+{
+	"col1": "49",
+	"col2": "Hong Kong, China",
+	"col3": "1",
+	"col4": "2",
+	"col5": "3",
+	"col6": "6",
+	"col7": "39"
+},
+{
+	"col1": "50",
+	"col2": "Philippines",
+	"col3": "1",
+	"col4": "2",
+	"col5": "1",
+	"col6": "4",
+	"col7": "47"
+},
+{
+	"col1": "50",
+	"col2": "Slovakia",
+	"col3": "1",
+	"col4": "2",
+	"col5": "1",
+	"col6": "4",
+	"col7": "47"
+},
+{
+	"col1": "52",
+	"col2": "South Africa",
+	"col3": "1",
+	"col4": "2",
+	"col5": "0",
+	"col6": "3",
+	"col7": "60"
+},
+{
+	"col1": "53",
+	"col2": "Austria",
+	"col3": "1",
+	"col4": "1",
+	"col5": "5",
+	"col6": "7",
+	"col7": "33"
+},
+{
+	"col1": "54",
+	"col2": "Egypt",
+	"col3": "1",
+	"col4": "1",
+	"col5": "4",
+	"col6": "6",
+	"col7": "39"
+},
+{
+	"col1": "55",
+	"col2": "Indonesia",
+	"col3": "1",
+	"col4": "1",
+	"col5": "3",
+	"col6": "5",
+	"col7": "42"
+},
+{
+	"col1": "56",
+	"col2": "Ethiopia",
+	"col3": "1",
+	"col4": "1",
+	"col5": "2",
+	"col6": "4",
+	"col7": "47"
+},
+{
+	"col1": "56",
+	"col2": "Portugal",
+	"col3": "1",
+	"col4": "1",
+	"col5": "2",
+	"col6": "4",
+	"col7": "47"
+},
+{
+	"col1": "58",
+	"col2": "Tunisia",
+	"col3": "1",
+	"col4": "1",
+	"col5": "0",
+	"col6": "2",
+	"col7": "66"
+},
+{
+	"col1": "59",
+	"col2": "Estonia",
+	"col3": "1",
+	"col4": "0",
+	"col5": "1",
+	"col6": "2",
+	"col7": "66"
+},
+{
+	"col1": "59",
+	"col2": "Fiji",
+	"col3": "1",
+	"col4": "0",
+	"col5": "1",
+	"col6": "2",
+	"col7": "66"
+},
+{
+	"col1": "59",
+	"col2": "Latvia",
+	"col3": "1",
+	"col4": "0",
+	"col5": "1",
+	"col6": "2",
+	"col7": "66"
+},
+{
+	"col1": "59",
+	"col2": "Thailand",
+	"col3": "1",
+	"col4": "0",
+	"col5": "1",
+	"col6": "2",
+	"col7": "66"
+},
+{
+	"col1": "63",
+	"col2": "Bermuda",
+	"col3": "1",
+	"col4": "0",
+	"col5": "0",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "63",
+	"col2": "Morocco",
+	"col3": "1",
+	"col4": "0",
+	"col5": "0",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "63",
+	"col2": "Puerto Rico",
+	"col3": "1",
+	"col4": "0",
+	"col5": "0",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "66",
+	"col2": "Colombia",
+	"col3": "0",
+	"col4": "4",
+	"col5": "1",
+	"col6": "5",
+	"col7": "42"
+},
+{
+	"col1": "67",
+	"col2": "Azerbaijan",
+	"col3": "0",
+	"col4": "3",
+	"col5": "4",
+	"col6": "7",
+	"col7": "33"
+},
+{
+	"col1": "68",
+	"col2": "Dominican Republic",
+	"col3": "0",
+	"col4": "3",
+	"col5": "2",
+	"col6": "5",
+	"col7": "42"
+},
+{
+	"col1": "69",
+	"col2": "Armenia",
+	"col3": "0",
+	"col4": "2",
+	"col5": "2",
+	"col6": "4",
+	"col7": "47"
+},
+{
+	"col1": "70",
+	"col2": "Kyrgyzstan",
+	"col3": "0",
+	"col4": "2",
+	"col5": "1",
+	"col6": "3",
+	"col7": "60"
+},
+{
+	"col1": "71",
+	"col2": "Mongolia",
+	"col3": "0",
+	"col4": "1",
+	"col5": "3",
+	"col6": "4",
+	"col7": "47"
+},
+{
+	"col1": "72",
+	"col2": "Argentina",
+	"col3": "0",
+	"col4": "1",
+	"col5": "2",
+	"col6": "3",
+	"col7": "60"
+},
+{
+	"col1": "72",
+	"col2": "San Marino",
+	"col3": "0",
+	"col4": "1",
+	"col5": "2",
+	"col6": "3",
+	"col7": "60"
+},
+{
+	"col1": "74",
+	"col2": "Jordan",
+	"col3": "0",
+	"col4": "1",
+	"col5": "1",
+	"col6": "2",
+	"col7": "66"
+},
+{
+	"col1": "74",
+	"col2": "Malaysia",
+	"col3": "0",
+	"col4": "1",
+	"col5": "1",
+	"col6": "2",
+	"col7": "66"
+},
+{
+	"col1": "74",
+	"col2": "Nigeria",
+	"col3": "0",
+	"col4": "1",
+	"col5": "1",
+	"col6": "2",
+	"col7": "66"
+},
+{
+	"col1": "77",
+	"col2": "Bahrain",
+	"col3": "0",
+	"col4": "1",
+	"col5": "0",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "77",
+	"col2": "Saudi Arabia",
+	"col3": "0",
+	"col4": "1",
+	"col5": "0",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "77",
+	"col2": "Lithuania",
+	"col3": "0",
+	"col4": "1",
+	"col5": "0",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "77",
+	"col2": "North Macedonia",
+	"col3": "0",
+	"col4": "1",
+	"col5": "0",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "77",
+	"col2": "Namibia",
+	"col3": "0",
+	"col4": "1",
+	"col5": "0",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "77",
+	"col2": "Turkmenistan",
+	"col3": "0",
+	"col4": "1",
+	"col5": "0",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "83",
+	"col2": "Kazakhstan",
+	"col3": "0",
+	"col4": "0",
+	"col5": "8",
+	"col6": "8",
+	"col7": "29"
+},
+{
+	"col1": "84",
+	"col2": "Mexico",
+	"col3": "0",
+	"col4": "0",
+	"col5": "4",
+	"col6": "4",
+	"col7": "47"
+},
+{
+	"col1": "85",
+	"col2": "Finland",
+	"col3": "0",
+	"col4": "0",
+	"col5": "2",
+	"col6": "2",
+	"col7": "66"
+},
+{
+	"col1": "86",
+	"col2": "Botswana",
+	"col3": "0",
+	"col4": "0",
+	"col5": "1",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "86",
+	"col2": "Burkina Faso",
+	"col3": "0",
+	"col4": "0",
+	"col5": "1",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "86",
+	"col2": "Côte d'Ivoire",
+	"col3": "0",
+	"col4": "0",
+	"col5": "1",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "86",
+	"col2": "Ghana",
+	"col3": "0",
+	"col4": "0",
+	"col5": "1",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "86",
+	"col2": "Grenada",
+	"col3": "0",
+	"col4": "0",
+	"col5": "1",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "86",
+	"col2": "Kuwait",
+	"col3": "0",
+	"col4": "0",
+	"col5": "1",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "86",
+	"col2": "Republic of Moldova",
+	"col3": "0",
+	"col4": "0",
+	"col5": "1",
+	"col6": "1",
+	"col7": "77"
+},
+{
+	"col1": "86",
+	"col2": "Syrian Arab Republic",
+	"col3": "0",
+	"col4": "0",
+	"col5": "1",
+	"col6": "1",
+	"col7": "77"
+}]

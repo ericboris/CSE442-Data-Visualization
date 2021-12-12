@@ -1,0 +1,17 @@
+Eric Boris
+CSE 442 - A2
+
+Does the political party or age of US Congress members influence the climate?
+
+Introduction: Does the political party or age of US Congress members influence the climate? The following describes the design rationale and considerations of the datasets, their transformations, and the resultant earnest and deceptive visualizations which pose this question.
+
+Data: Congressional age [1] and annual average temperature datasets [2]. To transform the congressional data, all but the party affiliation, age, and term start date attributes were removed and average age, party ratio, and term year attributes were added. To transform the temperature anomaly data, two troposphere measurement attributes were removed and an average temperature anomaly attribute was added. These datasets were joined on their common year attribute. 
+
+Visualization Similarities: Despite differences, both visualizations are fundamentally the same. Both are line graphs, since the data are time series, in which time is represented on the x-axis, average temperature anomaly on the y-axis, the ratio of Republicans to Democrats is represented using red and blue, respectively, since party affiliation is nominal and usually represented using a color, and average congress member age using line width. 
+
+Deceptive Visualization: A subtly deceptive visualization that falsely gave the impression that temperature anomalies are worsened when congress members are older and Republican-leaning. The title uses a familiar clickbait style, insinuates a biased interpretation of the visualization, uses evocative language not entirely synonymous with the data presented (climate change vs. temperature anomaly), and ends with an ‘!’ baiting an emotional response. Further, the years prior to 1979 when Democrats controlled congress and temperature anomalies worsened were trimmed, the neutral color representing a 1:1 ratio of Republicans to Democrats to overrepresent Republican majority congresses was used, differences in age were exaggerated with large changes in line width, and a description of y-axis values was not included. The result is that viewers are led to believe that climate change worsens when older Republicans are in office.
+
+Earnest Visualization: An accurate and precise visualization that asks a straightforward question and presents relevant data appropriately and with minimal bias. The title is concise, without leading the reader to a conclusion or triggering an emotional response. The entire available data range is used to show the full scope of phenomena contained therein, the aforementioned neutral color is set to 1 to equally represent the ratio between Republicans and Democrats, the differences in line width are set to be proportional to the differences in the values represented, and a descriptive subtitle is added to clarify the data plotted on the y-axis. The result is that viewers see no clear correlation between age, party affiliation, and temperature anomalies. 
+
+1. https://github.com/fivethirtyeight/data/tree/master/congress-age
+2. https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-temperature

@@ -1,0 +1,10 @@
+const BLUE = '#277DA1';
+const RED = '#F94144';
+const GREEN = '#43aa8b';
+const BORDER_RED = '#F9C74F';
+const BORDER_GREEN = '#4D908E';
+const CONSENSUS_RED = '#F9844A';
+const CONSENSUS_GREEN = '#90be6d';
+
+
+export {RED, GREEN, BLUE, BORDER_RED, BORDER_GREEN, CONSENSUS_RED, CONSENSUS_GREEN};

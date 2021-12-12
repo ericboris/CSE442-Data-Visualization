@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/FP-Blockchain/static/css/main.82fdfc44.chunk.css",
+    "main.js": "/FP-Blockchain/static/js/main.e7444f43.chunk.js",
+    "main.js.map": "/FP-Blockchain/static/js/main.e7444f43.chunk.js.map",
+    "runtime-main.js": "/FP-Blockchain/static/js/runtime-main.3adb92e2.js",
+    "runtime-main.js.map": "/FP-Blockchain/static/js/runtime-main.3adb92e2.js.map",
+    "static/css/2.383c0125.chunk.css": "/FP-Blockchain/static/css/2.383c0125.chunk.css",
+    "static/js/2.e82d6cdf.chunk.js": "/FP-Blockchain/static/js/2.e82d6cdf.chunk.js",
+    "static/js/2.e82d6cdf.chunk.js.map": "/FP-Blockchain/static/js/2.e82d6cdf.chunk.js.map",
+    "static/js/3.2ced137c.chunk.js": "/FP-Blockchain/static/js/3.2ced137c.chunk.js",
+    "static/js/3.2ced137c.chunk.js.map": "/FP-Blockchain/static/js/3.2ced137c.chunk.js.map",
+    "index.html": "/FP-Blockchain/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/FP-Blockchain/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.82fdfc44.chunk.css.map": "/FP-Blockchain/static/css/main.82fdfc44.chunk.css.map",
+    "static/js/2.e82d6cdf.chunk.js.LICENSE.txt": "/FP-Blockchain/static/js/2.e82d6cdf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3adb92e2.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.e82d6cdf.chunk.js",
+    "static/css/main.82fdfc44.chunk.css",
+    "static/js/main.e7444f43.chunk.js"
+  ]
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html xml:lang="en" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSE442 | A3</title>
+    <style media="all">
+        * { padding: 0; margin: 0; }
+        body {
+            margin: 0 auto 0 auto;
+            padding: 0;
+            max-width: 1000px;
+            font-family: "Avenir", "Avenir Next", Helvetica Neue, Arial;
+            font-size: 0.95em;
+        }
+        a, a:visited { text-decoration: none; color: #7533f4; }
+        a:hover { text-decoration: underline; color: #f4b014; }
+        h1, h2, h3, h4, h5 {
+            color: #492a7c;
+            background-color: inherit;
+            font-weight: normal;
+            padding: 0 0 5px 0;
+            margin: 15px 0 0 0;
+            border: none;
+            clear: right;
+        }
+        h1 { font-size: 24pt; margin:  5px 0 10px 0; line-height: 28px; }
+        h2 { font-size: 14pt; margin: 30px 0 15px 0; letter-spacing: 0.01em; border-bottom: 1px solid #ccc;  line-height: 20px;}
+        h3 { font-size: 13pt; }
+        h4 { font-size: 12pt; }
+        h5 { font-size: 11pt; }
+        p { margin: 0 0 10px 0; }
+        .content {
+            margin: 0;
+            padding: 15px 20px;
+            background-color: #ffffff;
+        }
+        .title h1, .title a {
+            color: #492a7c;
+            font-size: 24pt;
+            margin-bottom: 20px;
+            margin-top: 5px;
+        }
+        .title {
+            color: #492a7c;
+            font-size: 8pt;
+            margin-bottom: 5px;
+            margin-top: 8px;
+        }
+        .footer {
+            border-top: 1px solid #ccc;
+            margin-top: 30px;
+            padding-top: 4px;
+            text-align: right;
+            font-size: 12px;
+        }
+        .footer a {
+            color: #21346B;
+        }
+        .footer a:hover {
+            color: #ce3333;
+        }
+        .scrollCheckbox {
+            border:2px solid #ccc;
+            width:300px;
+            height: 100px;
+            overflow-y: scroll;
+
+        }
+        .container {
+            width: 250px;
+            height: 200px;
+            border: 1px solid #720570;
+        }
+
+        .bar {
+            fill: #720570;
+        }
+        ul{
+            list-style-type: none;
+        }
+        #chart {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <script lang="javascript" src="https://d3js.org/d3.v7.min.js" defer></script>
+    <script lang="javascript" src="https://d3js.org/d3-scale.v3.min.js" defer></script>
+    <script lang="javascript" src="https://d3js.org/d3-axis.v1.min.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="stackedHorizontalGraph.js" defer></script>
+</head>
+<body>
+<div class="content">
+    <section class="title">
+        <a href="/">Results of The 2021 Olympics By Countries</a>
+    </section>
+
+    <section>
+        <p>
+            <strong>Team Members</strong>: Alyssa Cote , Eric Boris, An Nguyen
+        </p>
+    </section>
+
+    <section>
+        <h2>How many medals did each country win in the 2021 Olympics?</h2>
+            <div id="chart">
+                <svg></svg>
+            </div>
+
+            <div id="legend">
+                <svg></svg>
+            </div>
+            <div id="data">
+                <ul></ul>
+            </div>
+            <div id="buttons">
+                <button type="button" id="deselect">Deselect All</button>
+                <button type="button" id="select">Select All</button>
+            </div>
+    </section>
+
+        <section>
+            <h2>Design Decisions</h2>
+            <div>
+           Because we decided to use 2021 Olympic medal data, we initially decided that we wanted a world map to represent the different countries in the data set. We would then have four (yes, four!) graphs to the right side of the map that would show the number of gold, silver, bronze, and total medals for the countries chosen from the map. In the process of getting one working graph functioning like we wanted it to, we quickly realized we needed to reevaluate our design.</br></br>
+We shelved the idea of displaying a selectable world map to focus on making a good simple graph rather than a mediochre To replace the map we opted to list the countries in a scroll box. We also decided that 4 graphs was overkill, and we could properly compare the data using a horizontal stacked graph. We chose a stacked graph because it uses size and color to convey how the countries fared against each other.</br></br>
+The color scheme we chose for the bars was fairly obvious: Gold had to be gold, silver silver, and bronze bronze. Although these colors are self explanatory, we nevertheless added a legend to remove any ambiguity. We also have a mouse hover tooltip specifying the number of medals of a specify the type of medal earned by that country On the y-axis we plotted the countries being compared to each other. This is a nominal data type which we sort according to the number of medals earned.
+Our x-axis is the measure and it's the total number of medals earned, a quantitative ratio data type. We also have a z-axis! The stacked bars which are split up by gold, silver, and bronze medals, and are ordinal. We chose our interaction technique because we wanted the reader to be able to compare whichever countries they want, no matter how many or how few. To facilitate this, we made the axes dynamically scale to fit the data in the graph.</br>
+           </div>
+        </section>
+        <section>
+        <h2>Development Process</h2>
+            <div>
+                We started the development process by meeting to discuss data sets and graph representations.
+                Once we landed on using Olympics 2021 data, we began developing the first of what was supposed to be
+                many graphs. Eric was the frontrunner in that he was able to get the initial graph up and running.
+                He also was able to get a working checklist of countries that displayed the total medals earned.
+                <br>
+                <br>
+                Getting the data was a difficult task, so Eric converted the xlsx file into JSON and copy + pasted it
+                into our graph file. He eventually was able to import the data rather than keep it embedded in the file.
+                Alyssa was working to add features to the graph, like axes, and adjusting the graph to make it look
+                how we wanted it to. She also wrapped the checklist into a scroll box for easier use. At this point, Alyssa
+                started making another graph to represent the gold medals that the countries won, and it was at this point
+                that the team discussed moving in another direction because we felt that we were attempting too much and
+                a more focused graphic.
+                <br>
+                <br>
+                The team decided on a vertical stacked bar chart after An confirmed with the course staff about the change.
+                Alyssa tried and failed at implementing it herself, so the team engaged in group programming and we got both the vertical stacked bar
+                chart and the legend implemented from tutorials. An rotated our x-axis labels and in doing so thought it
+                would be best to make it a horizontal stacked bar chart instead. We agreed and An implemented it. Eric then
+                broke up the code into functions to dynamically update the graph, including a render function.
+                <br>
+                <br>
+                An and Alyssa were able to figure out where to place the render calls, rendered an initialized blank graph, and cleared the graph
+                in between updates. Alyssa then made a function to dynamically change the x-axis max value depending on which 
+                countries were selected and An made it even better by adding a function that adds a certain percentage to the
+                max x-axis domain so that our bars were no longer hanging off the edge of our graph.
+                <br>
+                <br>
+                There were some unusual bugs in these functions that Eric and An were able to solve. Eric also added "Select" and "Deselect" buttons.
+                Overall, we had a pretty difficult time figuring out how to split the work. With this assignment under our belts
+                and a little more confidence in our D3 and JavaScript abilities, though, we will have a much better idea for the
+                final project. Also our changes in plans halfway through definitely impacted how much time we had to put into this
+                project. Our biggest challenges were the initial graphs we ended up not using, checklist to graph interactivity,
+                select/deselect buttons, and weird JavaScript bugs.
+                <br>
+                <br>
+                Our group spent ~50 hours on this project.
+                <br>
+                <br>
+                Copyright 2021 Observable, Inc.
+                Released under the ISC license.
+                https://observablehq.com/@d3/stacked-horizontal-bar-chart
+                <br>
+                <br>
+                Copyright 2021, Observable Inc.
+                Released under the ISC license.
+                https://observablehq.com/@d3/color-legend
+            </div>
+        </section>
+
+
+    <div class="footer">
+        <a href="https://courses.cs.washington.edu/courses/cse442/21au/">CSE 442 Data Visualization</a>
+        <a href="http://www.washington.edu">University of Washington</a>
+    </div>
+</div>
+</body>
+</html>

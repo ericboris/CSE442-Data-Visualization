@@ -1,0 +1,23 @@
+Eric Boris
+CSE 442 - A1
+
+
+Does monthly ice cream production correlate with monthly sunshine?
+
+
+It’s a simple question with a simple answer but visualizing the answer took some effort. What follows is a description of that effort and discussion of considerations that went into the resultant visualization. 
+
+
+I began by exploring the given sunshine data set and noting the cyclical nature of sunshine across the year. Wanting to have fun with the assignment and include additional data I chose to ask whether ice cream sales correlated with sunshine. But even after emailing ice cream stores and manufacturers I couldn’t obtain sales data. I did, however, find monthly ice cream production data - 49 years worth aggregated across the US and indexed to 2017 [1]. Previews of the data showed that, surely enough, ice cream production is cyclical. 
+
+
+Datasets in hand, I needed to transform them so that I could compare them directly. For the sunshine dataset, this was as simple as aggregating the mean sunshine per month across cities, resulting in average sunshine per month. Preparing the ice cream production dataset was more challenging. First, the data span 01/01/1972 - 07/01/2021. To prevent skewing the data I removed all data from 2021 leaving myself with data spanning 01/01/1972 - 12/01/2020. The next, and larger, challenge was that the raw data are not separated by month. But, using a function, I extracted the data for each month into monthly columns from which I took the mean, resulting in average ice cream production per month. Combining these data resulted in a single schema with the attributes: month, monthnum, avg. sunshine, and avg. production. 
+
+
+My next consideration was how to plot the data. I chose a line chart with months on the x axis since I’m displaying time series data. However, because the data represent different data types of different scales, I used two y axes: one for hours of sunshine and the other for ice cream production. One tricky aspect of this was lining up the values across the two y axes. I opted for 6 horizontal lines with 6 values on each axis. Although the numbers on the y axes aren’t “nice” I thought it preferable to maintain readability between axes. When plotted this way, a correlation between ice cream production and hours of sunshine is clear, i.e. production and sunshine peak and dip around the same times. Interestingly, it appears that production peaks about a month before sunshine peaks. This suggests that ice cream manufacturers increase production in expectation of summer demand but to verify would require additional research. 
+
+
+In conclusion, the visualization answers the title question “Does monthly ice cream production correlate with monthly sunshine?” in the affirmative. Once the data have been transformed, scaled, and plotted a correlation is clear. Further research could show the exact degree of correlation and possible causality but that’s beyond the scope of this visualization.
+
+
+1. https://fred.stlouisfed.org/series/IPN31152N
